@@ -15,7 +15,7 @@ const initialMessages: Message[] = [
     id: "welcome",
     role: "assistant",
     content:
-      "Namaste! I am your Indian Legal Information Assistant. Ask about fundamental rights, FIR procedure, consumer rights, labour laws, cyber crime, traffic rules, women protection, property law, emergency helplines, or legal terms. I answer using the knowledge documents in this app.",
+      "Namaste! I am your Indian Legal Information Assistant. I currently answer only from the Property law, Consumer law, and Employment law PDFs connected to this app.",
   },
 ];
 

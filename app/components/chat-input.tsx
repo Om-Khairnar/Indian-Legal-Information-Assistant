@@ -46,7 +46,7 @@ export function ChatInput({ onSend, disabled = false }: ChatInputProps) {
           value={value}
           onChange={(event) => setValue(event.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder="Ask about Indian legal topics, rights, or helplines..."
+          placeholder="Ask about property, consumer, or employment law..."
           disabled={disabled}
           className="min-h-11 max-h-40 flex-1 resize-none rounded-xl border border-zinc-300 bg-zinc-50 px-4 py-3 text-sm text-zinc-900 outline-none transition focus:border-zinc-500 focus:ring-2 focus:ring-zinc-200 disabled:cursor-not-allowed disabled:opacity-60 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:focus:border-zinc-500 dark:focus:ring-zinc-800"
         />
